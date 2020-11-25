@@ -6,11 +6,10 @@
 
 from logger._logger import Logger
 from logger._task_usage_logger import TaskUsageLogger
-from logger._record import TaskUsageRecord, Record
+from logger._task_event_logger import TaskEventLogger
 
 __all__ = [
     'Logger',
     'TaskUsageLogger',
-    'TaskUsageRecord',
-    'Record'
+    'TaskEventLogger'
 ]

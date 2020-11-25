@@ -41,7 +41,9 @@ class Loader(metaclass=ABCMeta):
             while True:
                 line = self._connection().readline()
                 event_time = self._get_event_time(line)
-                if pre < event_time <= cur:
+                if event_time == -1:
+                    continue
+                if pre <= event_time <= cur:
                     payloads.append(line)
                 else:
                     self._set_last_event(event_time, line)

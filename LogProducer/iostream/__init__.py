@@ -5,9 +5,11 @@
 # date: 24/11/2020
 
 from iostream._loader import Loader
-from iostream._task_usage_load import TaskUsageLoader
+from iostream._task_usage_loader import TaskUsageLoader
+from iostream._task_event_loader import TaskEventLoader
 
 __all__ = [
     'Loader',
-    'TaskUsageLoader'
+    'TaskUsageLoader',
+    'TaskEventLoader'
 ]

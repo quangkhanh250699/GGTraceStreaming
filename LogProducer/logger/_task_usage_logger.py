@@ -17,8 +17,8 @@ class TaskUsageLogger(Logger):
         if TaskUsageLogger.__instance__ is None:
             super().__init__()
             self.__config = config
-            self.__loader = TaskUsageLoader()
-            self.__recorder = TaskUsageRecord()
+            self._loader = TaskUsageLoader()
+            self._recorder = TaskUsageRecord()
             TaskUsageLogger.__instance__ = self
         else:
             raise Exception("Cannot create another instance of {}".format(self.__class__))
@@ -29,12 +29,12 @@ class TaskUsageLogger(Logger):
             TaskUsageLogger(config)
         return cls.__instance__
 
-    def _loader(self) -> TaskUsageLoader:
-        return self.__loader
-
-    def _recorder(self) -> TaskUsageRecord:
-        return self.__recorder
-
-    @property
-    def config(self):
-        return self.__config
+    # def _loader(self) -> TaskUsageLoader:
+    #     return self.__loader
+    #
+    # def _recorder(self) -> TaskUsageRecord:
+    #     return self.__recorder
+    #
+    # @property
+    # def config(self):
+    #     return self.__config

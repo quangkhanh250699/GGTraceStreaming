@@ -6,7 +6,7 @@
 
 from connector import Connector, KafkaConnector
 from config import ConnectorConfig, LoggerConfig
-from logger import TaskUsageLogger, Logger
+from logger import TaskUsageLogger, Logger, TaskEventLogger
 from timer import Timer
 
 from typing import List, Tuple, Set
@@ -25,6 +25,8 @@ def _get_logger(config: LoggerConfig):
     name = config.name
     if name == "TASK_USAGE":
         return TaskUsageLogger.get_instance(config)
+    elif name == "TASK_EVENT":
+        return TaskEventLogger.get_instance(config)
     else:
         raise Exception("Not found type of logger config named {}".format(name))
 
@@ -75,6 +77,10 @@ class LogManager:
 
 if __name__ == '__main__':
     task_usage_logger_config = LoggerConfig("TASK_USAGE", 300)
-    kafka_connector_config = ConnectorConfig("KAFKA_CONNECTOR", "TASK-USAGE")
-    manager = LogManager([(task_usage_logger_config, kafka_connector_config)], 100, 5)
+    task_usage_connector_config = ConnectorConfig("KAFKA_CONNECTOR", "TASK-USAGE")
+    task_event_logger_config = LoggerConfig("TASK_EVENT", 300)
+    task_event_connector_config = ConnectorConfig("KAFKA_CONNECTOR", "TASK-EVENT")
+    manager = LogManager([(task_usage_logger_config, task_usage_connector_config),
+                          (task_event_logger_config, task_event_connector_config)],
+                         100, 5)
     manager.dispatch_logs()

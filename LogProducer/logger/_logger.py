@@ -30,16 +30,14 @@ class Logger(metaclass=ABCMeta):
     def log(self) -> List[str]:
         self._update(self.__current_time)
         pre, cur = self._get_interval()
-        payloads = self._loader().load(pre, cur)
-        return self._recorder().to_record_strings(payloads)
+        payloads = self.get_loader().load(pre, cur)
+        return self.get_recorder().to_record_strings(payloads)
 
-    @abstractmethod
-    def _loader(self) -> Loader:
-        pass
+    def get_loader(self) -> Loader:
+        return self._loader
 
-    @abstractmethod
-    def _recorder(self) -> Record:
-        pass
+    def get_recorder(self) -> Record:
+        return self._recorder
 
     def _get_interval(self):
         return self.__checked_time, self.__current_time
