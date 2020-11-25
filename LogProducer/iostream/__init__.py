@@ -4,10 +4,10 @@
 # project name: LogProducer
 # date: 24/11/2020
 
-from connector._connector import Connector
-from connector._kafka_connector import KafkaConnector
+from iostream._loader import Loader
+from iostream._task_usage_load import TaskUsageLoader
 
 __all__ = [
-    'Connector',
-    'KafkaConnector'
+    'Loader',
+    'TaskUsageLoader'
 ]

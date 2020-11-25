@@ -4,8 +4,11 @@
 # project name: LogProducer
 # date: 24/11/2020
 
-from abc import ABCMeta
+from abc import ABCMeta, abstractmethod
 
 
 class Config(metaclass=ABCMeta):
-    pass
+
+    @abstractmethod
+    def name(self) -> str:
+        pass

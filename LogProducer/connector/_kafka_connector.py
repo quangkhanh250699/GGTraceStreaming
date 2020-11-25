@@ -5,6 +5,7 @@
 # date: 24/11/2020
 
 from kafka import KafkaProducer
+from typing import List
 
 from connector._connector import Connector
 from config import ConnectorConfig
@@ -26,15 +27,9 @@ class KafkaConnector(Connector):
     def getNewInstance(cls, config: ConnectorConfig):
         return cls(config)
 
-    def submit(self, payload: str):
+    def submit(self, payload: List[str]):
         try:
-            metadata = self.__producer.send(self.__topic, payload.encode()).get()
-            print(metadata)
+            for data in payload:
+                metadata = self.__producer.send(self.__topic, data.encode()).get()
         except KeyboardInterrupt:
             pass
-
-
-if __name__ == '__main__':
-    config = ConnectorConfig("test")
-    connector = KafkaConnector(config)
-    connector.submit("test")
