@@ -45,6 +45,9 @@ class TaskUsageRecord(Record):
     ]
 
     def to_record_string(self, payload: str) -> str:
+        return payload
+
+    def to_record_json(self, payload: str) -> str:
         values = payload.split(',')
         for i in range(6):
             try:
@@ -80,6 +83,9 @@ class TaskEventRecord(Record):
     ]
 
     def to_record_string(self, payload: str) -> str:
+        return payload
+
+    def to_record_json(self, payload: str) -> str:
         values = payload.split(',')
         for i in [0, 1, 2, 3, 4, 5, 6, 8, 9, 13]:
             try:
