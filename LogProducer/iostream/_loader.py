@@ -39,7 +39,7 @@ class Loader(metaclass=ABCMeta):
                 payloads.append(event)
         try:
             while True:
-                line = self._connection().readline()
+                line = self._connection().readline()[:-1]  # remove '\n'
                 event_time = self._get_event_time(line)
                 if event_time == -1:
                     continue
