@@ -8,14 +8,21 @@ from logger import TaskUsageLogger
 from connector import KafkaConnector
 from config import LoggerConfig, ConnectorConfig
 
+
 class Main:
+    task_usage_logger_config = LoggerConfig("TASK_USAGE", 100)
+    task_usage_connector_config = ConnectorConfig("KAFKA_CONNECTOR", "TASK-USAGE")
+    task_event_logger_config = LoggerConfig("TASK_EVENT", 100)
+    task_event_connector_config = ConnectorConfig("KAFKA_CONNECTOR", "TASK-EVENT")
+    __log_manager = LogManager([(task_usage_logger_config, task_usage_connector_config),
+                                (task_event_logger_config, task_event_connector_config)],
+                               100, 5)
 
-    __log_manager: LogManager
+    @classmethod
+    def run(cls):
+        cls.__log_manager.dispatch_logs()
 
-    def __init__(self):
-        task_usage_logger_config = LoggerConfig("TASK_USAGE")
-        kafka_connector_config = ConnectorConfig("KAFKA_CONNECTOR", "TASK_USAGE")
-        self.__log_manager = LogManager([(task_usage_logger_config, kafka_connector_config)])
 
-    def run(self):
-        pass
+if __name__ == '__main__':
+    app = Main()
+    app.run()

@@ -14,3 +14,8 @@ libraryDependencies += "org.apache.hadoop" % "hadoop-mapreduce-client-core" % "3
 
 libraryDependencies += "com.typesafe.scala-logging" %% "scala-logging" % "3.7.2"
 libraryDependencies += "ch.qos.logback" % "logback-classic" % "1.2.3"
+
+assemblyMergeStrategy in assembly := {
+  case PathList("META-INF", "MANIFEST.MF") => MergeStrategy.discard
+  case _ => MergeStrategy.last
+}

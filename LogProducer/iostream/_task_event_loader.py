@@ -10,7 +10,7 @@ import re
 
 
 class TaskEventLoader(Loader):
-    __source = "data/task_events/part-00000-of-00500.csv"
+    __source = "data/task_events/part-00001-of-00500.csv"
 
     def __init__(self):
         self.__file = open(self.__source)
