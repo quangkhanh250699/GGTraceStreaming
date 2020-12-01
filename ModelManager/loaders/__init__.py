@@ -4,10 +4,11 @@
 # project name: ModelManager
 # date: 01/12/2020
 
-from loaders.__loader import Loader
-from loaders.__task_event_loader import TaskEventLoader
+from loaders.__loader import DataLoader, ModelLoader
+from loaders.__task_event_loader import TaskEventDataLoader
 
 __all__ = [
-    'Loader',
-    'TaskEventLoader'
+    'DataLoader',
+    'TaskEventDataLoader',
+    'ModelLoader'
 ]

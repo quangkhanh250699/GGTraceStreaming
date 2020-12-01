@@ -6,17 +6,11 @@
 
 from abc import ABCMeta, abstractmethod
 
+from pyspark.ml import Estimator
+
 
 class Preprocessor(metaclass=ABCMeta):
 
     @abstractmethod
-    def preprocess(self, input_df):
-        pass
-
-    @abstractmethod
-    def fit(self, input_df):
-        pass
-
-    @abstractmethod
-    def setup(self):
+    def get_estimator(self) -> Estimator:
         pass

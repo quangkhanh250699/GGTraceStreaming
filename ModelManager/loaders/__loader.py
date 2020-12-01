@@ -6,9 +6,18 @@
 
 from abc import ABCMeta, abstractmethod
 
+from pyspark.ml.pipeline import PipelineModel
+from pyspark.sql import DataFrame
 
-class Loader(metaclass=ABCMeta):
+
+class DataLoader(metaclass=ABCMeta):
 
     @abstractmethod
-    def load(self, path: str):
+    def load(self, path: str) -> DataFrame:
         pass
+
+
+class ModelLoader():
+    @classmethod
+    def load_pipeline_model(cls, model_path: str) -> PipelineModel:
+        return PipelineModel.read().load(model_path)
