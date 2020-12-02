@@ -59,7 +59,7 @@ class LogManager:
             clock = Timer.clock()
             for i in range(len(self.__loggers)):
                 payload = self.__loggers[i].log()
-                print(payload.__len__())
+                print(self.__loggers[i].get_name() + " sent " + str(payload.__len__()) + " messages")
                 self.__connectors[i].submit(payload)
             time.sleep(self.__interval_waiting)
 

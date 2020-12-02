@@ -11,8 +11,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: aopalliance:aopalliance:1.0:jar" level="project" />
-    <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.2.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: ch.qos.logback:logback-core:1.2.3:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-annotations:2.10.3:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-core:2.10.3:jar" level="project" />
     <orderEntry type="library" name="sbt: com.fasterxml.jackson.core:jackson-databind:2.10.3:jar" level="project" />
@@ -45,7 +43,6 @@
     <orderEntry type="library" name="sbt: com.sun.jersey:jersey-servlet:1.19:jar" level="project" />
     <orderEntry type="library" name="sbt: com.sun.xml.bind:jaxb-impl:2.2.3-1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.thoughtworks.paranamer:paranamer:2.3:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.typesafe.scala-logging:scala-logging_2.12:3.7.2:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-beanutils:commons-beanutils:1.9.4:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-cli:commons-cli:1.2:jar" level="project" />
     <orderEntry type="library" name="sbt: commons-codec:commons-codec:1.11:jar" level="project" />
@@ -146,10 +143,8 @@
     <orderEntry type="library" name="sbt: org.lz4:lz4-java:1.7.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.ow2.asm:asm:5.0.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.10:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.12.10:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.30:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:slf4j-log4j12:1.7.25:jar" level="project" />
     <orderEntry type="library" name="sbt: org.xerial.snappy:snappy-java:1.1.7.3:jar" level="project" />
-    <orderEntry type="library" name="scala-sdk-2.12.10" level="application" />
   </component>
 </module>

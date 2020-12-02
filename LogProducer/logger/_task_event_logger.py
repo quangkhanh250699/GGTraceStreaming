@@ -29,3 +29,6 @@ class TaskEventLogger(Logger):
         if cls.__instance__ is None:
             TaskEventLogger(config)
         return cls.__instance__
+
+    def get_name(self):
+        return "TASK-EVENT LOGGER"

@@ -29,6 +29,8 @@ class TaskUsageLogger(Logger):
             TaskUsageLogger(config)
         return cls.__instance__
 
+    def get_name(self):
+        return "TASK-USAGE LOGGER"
     # def _loader(self) -> TaskUsageLoader:
     #     return self.__loader
     #

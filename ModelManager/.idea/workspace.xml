@@ -20,17 +20,414 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01d5e3b4-9dd0-4956-adf6-1a757614e8b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/trainers/__task_event_trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_10_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_10_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_10_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_10_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_10_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_fasterxml_woodstox_woodstox_core_5_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_github_luben_zstd_jni_1_4_4_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_github_stephenc_jcip_jcip_annotations_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_google_code_findbugs_jsr305_3_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_google_code_gson_gson_2_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_google_errorprone_error_prone_annotations_2_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_google_guava_failureaccess_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_google_guava_guava_27_0_jre_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_google_inject_extensions_guice_servlet_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_google_inject_guice_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_google_j2objc_j2objc_annotations_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_google_protobuf_protobuf_java_2_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_google_re2j_re2j_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_jcraft_jsch_0_1_55_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_nimbusds_nimbus_jose_jwt_7_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_squareup_okhttp_okhttp_2_7_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_squareup_okio_okio_1_6_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_sun_jersey_contribs_jersey_guice_1_19_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_sun_jersey_jersey_client_1_19_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_sun_jersey_jersey_core_1_19_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_sun_jersey_jersey_json_1_19_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_sun_jersey_jersey_server_1_19_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_sun_jersey_jersey_servlet_1_19_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_sun_xml_bind_jaxb_impl_2_2_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__commons_beanutils_commons_beanutils_1_9_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__commons_cli_commons_cli_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__commons_codec_commons_codec_1_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__commons_collections_commons_collections_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__commons_daemon_commons_daemon_1_0_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__commons_io_commons_io_2_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__commons_logging_commons_logging_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__commons_net_commons_net_3_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__dnsjava_dnsjava_2_1_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__io_netty_netty_3_10_6_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__io_netty_netty_all_4_1_50_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__io_netty_netty_buffer_4_1_42_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__io_netty_netty_codec_4_1_42_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__io_netty_netty_common_4_1_42_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__io_netty_netty_handler_4_1_42_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__io_netty_netty_resolver_4_1_42_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__io_netty_netty_transport_4_1_42_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__io_netty_netty_transport_native_epoll_4_1_42_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__io_netty_netty_transport_native_unix_common_4_1_42_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__jakarta_activation_jakarta_activation_api_1_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__javax_activation_javax_activation_api_1_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__javax_servlet_javax_servlet_api_3_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__javax_servlet_jsp_jsp_api_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__javax_ws_rs_jsr311_api_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__javax_xml_bind_jaxb_api_2_2_11_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__log4j_log4j_1_2_17_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__net_minidev_accessors_smart_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__net_minidev_json_smart_2_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_avro_avro_1_7_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_commons_commons_compress_1_19_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_commons_commons_configuration2_2_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_commons_commons_math3_3_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_commons_commons_text_1_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_curator_curator_client_4_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_curator_curator_framework_4_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_curator_curator_recipes_4_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_annotations_3_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_auth_3_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_client_3_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_common_3_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_3_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_client_3_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_common_3_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_core_3_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_jobclient_3_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_api_3_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_client_3_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_common_3_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_hadoop_thirdparty_hadoop_shaded_protobuf_3_7_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_htrace_htrace_core4_4_1_0_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_5_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_4_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kafka_kafka_clients_2_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kerby_kerb_admin_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kerby_kerb_client_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kerby_kerb_common_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kerby_kerb_core_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kerby_kerb_crypto_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kerby_kerb_identity_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kerby_kerb_server_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kerby_kerb_simplekdc_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kerby_kerb_util_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kerby_kerby_asn1_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kerby_kerby_config_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kerby_kerby_pkix_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kerby_kerby_util_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kerby_kerby_xdr_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_kerby_token_provider_1_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_yetus_audience_annotations_0_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_3_5_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_jute_3_5_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_checkerframework_checker_qual_2_5_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_codehaus_jackson_jackson_core_asl_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_codehaus_jackson_jackson_jaxrs_1_9_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_codehaus_jackson_jackson_mapper_asl_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_codehaus_jackson_jackson_xc_1_9_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_codehaus_jettison_jettison_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_codehaus_mojo_animal_sniffer_annotations_1_17_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_codehaus_woodstox_stax2_api_3_1_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_eclipse_jetty_jetty_client_9_4_20_v20190813_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_eclipse_jetty_jetty_http_9_4_20_v20190813_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_eclipse_jetty_jetty_io_9_4_20_v20190813_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_eclipse_jetty_jetty_security_9_4_20_v20190813_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_eclipse_jetty_jetty_server_9_4_20_v20190813_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_eclipse_jetty_jetty_servlet_9_4_20_v20190813_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_eclipse_jetty_jetty_util_9_4_20_v20190813_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_eclipse_jetty_jetty_util_ajax_9_4_20_v20190813_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_eclipse_jetty_jetty_webapp_9_4_20_v20190813_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_eclipse_jetty_jetty_xml_9_4_20_v20190813_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_eclipse_jetty_websocket_websocket_api_9_4_20_v20190813_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_eclipse_jetty_websocket_websocket_client_9_4_20_v20190813_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_eclipse_jetty_websocket_websocket_common_9_4_20_v20190813_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_jline_jline_3_9_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_lz4_lz4_java_1_7_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_ow2_asm_asm_5_0_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_30_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_slf4j_slf4j_log4j12_1_7_25_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BatchLayer/.idea/libraries/sbt__org_xerial_snappy_snappy_java_1_1_7_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/metadata/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/metadata/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/metadata/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/metadata/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/stages/0_Imputer_7e206d190ed5/data/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/stages/0_Imputer_7e206d190ed5/data/.part-00000-e4b6cc25-e00f-4aa7-970d-247ce86b5c40-c000.snappy.parquet.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/stages/0_Imputer_7e206d190ed5/data/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/stages/0_Imputer_7e206d190ed5/data/part-00000-e4b6cc25-e00f-4aa7-970d-247ce86b5c40-c000.snappy.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/stages/0_Imputer_7e206d190ed5/metadata/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/stages/0_Imputer_7e206d190ed5/metadata/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/stages/0_Imputer_7e206d190ed5/metadata/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/stages/0_Imputer_7e206d190ed5/metadata/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/stages/1_VectorAssembler_3d9aae7939ce/metadata/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/stages/1_VectorAssembler_3d9aae7939ce/metadata/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/stages/1_VectorAssembler_3d9aae7939ce/metadata/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/0_PipelineModel_1e1ad9526156/stages/1_VectorAssembler_3d9aae7939ce/metadata/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_42e9981a3fb6/data/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_42e9981a3fb6/data/.part-00000-d94e78ab-b089-41d5-bac0-75266fd9c393-c000.snappy.parquet.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_42e9981a3fb6/data/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_42e9981a3fb6/data/part-00000-d94e78ab-b089-41d5-bac0-75266fd9c393-c000.snappy.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_42e9981a3fb6/metadata/._SUCCESS.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_42e9981a3fb6/metadata/.part-00000.crc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_42e9981a3fb6/metadata/_SUCCESS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_42e9981a3fb6/metadata/part-00000" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__aopalliance_aopalliance_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_chuusai_shapeless_2_12_2_3_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_clearspring_analytics_stream_2_9_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_esotericsoftware_kryo_shaded_4_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_esotericsoftware_minlog_1_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_12_2_10_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_github_fommil_netlib_core_1_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_github_luben_zstd_jni_1_4_4_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_github_spotbugs_spotbugs_annotations_3_1_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_github_wendykierp_JTransforms_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_google_code_findbugs_jsr305_3_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_google_code_gson_gson_2_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_google_flatbuffers_flatbuffers_java_1_9_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_google_guava_guava_16_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_google_inject_guice_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_google_protobuf_protobuf_java_2_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_ning_compress_lzf_1_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_sun_istack_istack_commons_runtime_3_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_thoughtworks_paranamer_paranamer_2_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_twitter_chill_2_12_0_9_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_twitter_chill_java_0_9_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__com_univocity_univocity_parsers_2_9_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__commons_beanutils_commons_beanutils_1_7_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__commons_cli_commons_cli_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__commons_codec_commons_codec_1_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__commons_collections_commons_collections_3_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__commons_configuration_commons_configuration_1_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__commons_digester_commons_digester_1_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__commons_httpclient_commons_httpclient_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__commons_io_commons_io_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__commons_lang_commons_lang_2_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__commons_net_commons_net_3_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__io_airlift_aircompressor_0_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__io_dropwizard_metrics_metrics_core_4_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__io_dropwizard_metrics_metrics_graphite_4_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__io_dropwizard_metrics_metrics_jmx_4_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__io_dropwizard_metrics_metrics_json_4_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__io_dropwizard_metrics_metrics_jvm_4_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__io_netty_netty_3_10_6_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__io_netty_netty_all_4_1_47_Final_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__jakarta_annotation_jakarta_annotation_api_1_3_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__jakarta_validation_jakarta_validation_api_2_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__jakarta_ws_rs_jakarta_ws_rs_api_2_1_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__javax_activation_activation_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__javax_servlet_javax_servlet_api_3_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__javax_servlet_jsp_jsp_api_2_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__javax_xml_bind_jaxb_api_2_2_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__javax_xml_stream_stax_api_1_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__jline_jline_0_9_94_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__log4j_log4j_1_2_17_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__net_razorvine_pyrolite_4_30_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__net_sf_opencsv_opencsv_2_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__net_sf_py4j_py4j_0_10_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__net_sourceforge_f2j_arpack_combined_all_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_antlr_antlr4_runtime_4_7_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_arrow_arrow_format_0_15_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_arrow_arrow_memory_0_15_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_arrow_arrow_vector_0_15_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_avro_avro_1_8_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_avro_avro_ipc_1_8_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_avro_avro_mapred_1_8_2_hadoop2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_commons_commons_compress_1_8_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_commons_commons_crypto_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_commons_commons_lang3_3_9_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_commons_commons_math3_3_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_commons_commons_pool2_2_6_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_commons_commons_text_1_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_curator_curator_client_2_7_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_curator_curator_framework_2_7_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_curator_curator_recipes_2_7_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_directory_api_api_asn1_api_1_0_0_M20_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_directory_api_api_util_1_0_0_M20_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_directory_server_apacheds_i18n_2_0_0_M15_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_annotations_2_7_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_auth_2_7_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_client_2_7_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_common_2_7_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_hdfs_2_7_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_app_2_7_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_common_2_7_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_core_2_7_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_7_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_7_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_api_2_7_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_client_2_7_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_common_2_7_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_server_common_2_7_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hadoop_hadoop_yarn_server_nodemanager_2_7_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_hive_hive_storage_api_2_7_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_htrace_htrace_core_3_1_0_incubating_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_httpcomponents_httpclient_4_2_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_httpcomponents_httpcore_4_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_ivy_ivy_2_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_kafka_kafka_clients_2_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_orc_orc_core_1_5_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_orc_orc_mapreduce_1_5_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_orc_orc_shims_1_5_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_parquet_parquet_column_1_10_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_parquet_parquet_common_1_10_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_parquet_parquet_encoding_1_10_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_parquet_parquet_format_2_4_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_parquet_parquet_hadoop_1_10_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_parquet_parquet_jackson_1_10_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_catalyst_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_core_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_graphx_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_kvstore_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_launcher_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_mllib_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_mllib_local_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_network_common_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_network_shuffle_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_sketch_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_sql_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_sql_kafka_0_10_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_streaming_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_streaming_kafka_0_10_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_tags_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_token_provider_kafka_0_10_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_spark_spark_unsafe_2_12_3_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_xbean_xbean_asm7_shaded_4_15_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_yetus_audience_annotations_0_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_apache_zookeeper_zookeeper_3_4_14_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_codehaus_jackson_jackson_core_asl_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_codehaus_jackson_jackson_jaxrs_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_codehaus_jackson_jackson_mapper_asl_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_codehaus_jackson_jackson_xc_1_9_13_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_codehaus_janino_commons_compiler_3_0_16_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_codehaus_janino_janino_3_0_16_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_codehaus_jettison_jettison_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_fusesource_leveldbjni_leveldbjni_all_1_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_glassfish_hk2_external_aopalliance_repackaged_2_6_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_glassfish_hk2_external_jakarta_inject_2_6_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_glassfish_hk2_hk2_api_2_6_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_glassfish_hk2_hk2_locator_2_6_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_glassfish_hk2_hk2_utils_2_6_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_glassfish_hk2_osgi_resource_locator_1_0_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_glassfish_jaxb_jaxb_runtime_2_3_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_glassfish_jersey_containers_jersey_container_servlet_2_30_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_glassfish_jersey_containers_jersey_container_servlet_core_2_30_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_client_2_30_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_common_2_30_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_glassfish_jersey_core_jersey_server_2_30_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_glassfish_jersey_inject_jersey_hk2_2_30_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_glassfish_jersey_media_jersey_media_jaxb_2_30_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_javassist_javassist_3_25_0_GA_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_json4s_json4s_ast_2_12_3_6_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_json4s_json4s_core_2_12_3_6_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_json4s_json4s_jackson_2_12_3_6_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_json4s_json4s_scalap_2_12_3_6_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_lz4_lz4_java_1_7_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_mortbay_jetty_jetty_sslengine_6_1_26_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_mortbay_jetty_jetty_util_6_1_26_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_objenesis_objenesis_2_5_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_roaringbitmap_RoaringBitmap_0_7_45_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_roaringbitmap_shims_0_7_45_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_scala_lang_modules_scala_collection_compat_2_12_2_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_scala_lang_modules_scala_parser_combinators_2_12_1_1_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_12_1_2_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_scalanlp_breeze_2_12_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_scalanlp_breeze_macros_2_12_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_slf4j_jcl_over_slf4j_1_7_30_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_slf4j_jul_to_slf4j_1_7_30_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_30_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_slf4j_slf4j_log4j12_1_7_30_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_spark_project_spark_unused_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_threeten_threeten_extra_1_5_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_tukaani_xz_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_typelevel_algebra_2_12_2_0_0_M2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_typelevel_cats_kernel_2_12_2_0_0_M4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_typelevel_machinist_2_12_0_6_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_typelevel_macro_compat_2_12_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_typelevel_spire_2_12_0_17_0_M1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_typelevel_spire_macros_2_12_0_17_0_M1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_typelevel_spire_platform_2_12_0_17_0_M1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_typelevel_spire_util_2_12_0_17_0_M1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__org_xerial_snappy_snappy_java_1_1_7_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__oro_oro_2_0_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__pl_edu_icm_JLargeArrays_1_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__xerces_xercesImpl_2_9_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__xml_apis_xml_apis_1_3_04_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/libraries/sbt__xmlenc_xmlenc_0_52_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/modules/SpeechLayer-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/modules/SpeechLayer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/project/project/plugins.sbt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/src/main/scala/Main.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/src/main/scala/SimpleTaskEvent.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/src/main/scala/Test.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/src/main/scala/com/hust/logstream/SparkEntry.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/src/main/scala/com/hust/logstream/SpeechManager.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/src/main/scala/com/hust/logstream/model/Model.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/src/main/scala/com/hust/logstream/model/prediction/TaskEventModel.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/src/main/scala/com/hust/logstream/model/prediction/TrainedModel.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/src/main/scala/com/hust/logstream/streaming/StreamManager.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/src/main/scala/com/hust/logstream/streaming/TaskEventStreaming.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/src/main/scala/com/hust/logstream/streaming/stream/KafkaStream.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/src/main/scala/com/hust/logstream/streaming/stream/Stream.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/src/main/scala/com/hust/logstream/streaming/task/Task.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpeechLayer/src/main/scala/com/hust/logstream/streaming/task/TaskEvent.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BatchLayer/.idea/modules/BatchLayer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../BatchLayer/.idea/modules/BatchLayer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BatchLayer/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/../BatchLayer/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BatchLayer/src/main/scala/HadoopTest.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BatchLayer/src/main/scala/KafkaTest.sc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BatchLayer/src/main/scala/fetcher/KafkaFetcher.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../BatchLayer/src/main/scala/fetcher/KafkaFetcher.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Diagrams/StreamingModel.asta" beforeDir="false" afterPath="$PROJECT_DIR$/../Diagrams/StreamingModel.asta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Diagrams/StreamingModel.asta.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogProducer/log_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LogProducer/log_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogProducer/logger/_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LogProducer/logger/_logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogProducer/logger/_task_event_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LogProducer/logger/_task_event_logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogProducer/logger/_task_usage_logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LogProducer/logger/_task_usage_logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LogProducer/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../LogProducer/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loaders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/loaders/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/task-event/metadata/.part-00000.crc" beforeDir="false" afterPath="$PROJECT_DIR$/data/models/task-event/metadata/.part-00000.crc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/task-event/metadata/part-00000" beforeDir="false" afterPath="$PROJECT_DIR$/data/models/task-event/metadata/part-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/task-event/stages/0_VectorAssembler_3fa986c0e202/metadata/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/task-event/stages/0_VectorAssembler_3fa986c0e202/metadata/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/task-event/stages/0_VectorAssembler_3fa986c0e202/metadata/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/task-event/stages/0_VectorAssembler_3fa986c0e202/metadata/part-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_3dd11ad0930c/data/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_3dd11ad0930c/data/.part-00000-79be09cf-cb61-446c-96fa-ebd237dc589e-c000.snappy.parquet.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_3dd11ad0930c/data/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_3dd11ad0930c/data/part-00000-79be09cf-cb61-446c-96fa-ebd237dc589e-c000.snappy.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_3dd11ad0930c/metadata/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_3dd11ad0930c/metadata/.part-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_3dd11ad0930c/metadata/_SUCCESS" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/models/task-event/stages/1_GaussianMixture_3dd11ad0930c/metadata/part-00000" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/loaders/__loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/loaders/__loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loaders/__task_event_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/loaders/__task_event_loader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessers/__preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessers/__preprocessor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessers/__task_event_preprocessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessers/__task_event_preprocessor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trainers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trainers/__task_event_trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainers/__task_event_trainer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trainers/__trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/trainers/__trainer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,12 +458,15 @@
   </component>
   <component name="JupyterTrust" id="42023612-b4bb-48f1-affd-1976a77c35e6" />
   <component name="ProjectId" id="1l17FpA1HZd3xP14tAOE0vty9Tv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -182,6 +582,8 @@
       <workItem from="1606796324423" duration="330000" />
       <workItem from="1606814699713" duration="6860000" />
       <workItem from="1606825864546" duration="5073000" />
+      <workItem from="1606923998727" duration="1503000" />
+      <workItem from="1606925545553" duration="1484000" />
     </task>
     <servers />
   </component>
@@ -200,6 +602,9 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2369" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1606829395174">
       <screen x="1600" y="0" width="1920" height="1080" />
@@ -217,22 +622,22 @@
       <screen x="0" y="0" width="1920" height="1044" />
     </state>
     <state x="744" y="273" key="FileChooserDialogImpl/0.0.1920.1044@0.0.1920.1044" timestamp="1606796050563" />
-    <state width="1874" height="299" key="GridCell.Tab.0.bottom" timestamp="1606830949563">
+    <state width="1874" height="572" key="GridCell.Tab.0.bottom" timestamp="1606927029639">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="299" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1606830949563" />
-    <state width="1874" height="299" key="GridCell.Tab.0.center" timestamp="1606830949563">
+    <state width="1874" height="572" key="GridCell.Tab.0.bottom/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1606927029639" />
+    <state width="1874" height="572" key="GridCell.Tab.0.center" timestamp="1606927029639">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="299" key="GridCell.Tab.0.center/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1606830949563" />
-    <state width="1874" height="299" key="GridCell.Tab.0.left" timestamp="1606830949562">
+    <state width="1874" height="572" key="GridCell.Tab.0.center/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1606927029639" />
+    <state width="1874" height="572" key="GridCell.Tab.0.left" timestamp="1606927029639">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="299" key="GridCell.Tab.0.left/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1606830949562" />
-    <state width="1874" height="299" key="GridCell.Tab.0.right" timestamp="1606830949563">
+    <state width="1874" height="572" key="GridCell.Tab.0.left/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1606927029639" />
+    <state width="1874" height="572" key="GridCell.Tab.0.right" timestamp="1606927029639">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="299" key="GridCell.Tab.0.right/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1606830949563" />
+    <state width="1874" height="572" key="GridCell.Tab.0.right/1600.0.1920.1080/0.0.1600.900@1600.0.1920.1080" timestamp="1606927029639" />
     <state x="2057" y="155" width="1007" height="733" key="SettingsEditor" timestamp="1606815748212">
       <screen x="1600" y="0" width="1920" height="1080" />
     </state>
@@ -249,7 +654,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ModelManager$__task_event_trainer.coverage" NAME="__task_event_trainer Coverage Results" MODIFIED="1606830487339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/trainers" />
-    <SUITE FILE_PATH="coverage/ModelManager$main.coverage" NAME="main Coverage Results" MODIFIED="1606830854318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ModelManager$main.coverage" NAME="main Coverage Results" MODIFIED="1606926713554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ModelManager$__task_event_loader.coverage" NAME="__task_event_loader Coverage Results" MODIFIED="1606830129774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loaders" />
     <SUITE FILE_PATH="coverage/ModelManager$__task_event_preprocessor.coverage" NAME="__task_event_preprocessor Coverage Results" MODIFIED="1606821495945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessers" />
   </component>

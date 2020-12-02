@@ -41,10 +41,9 @@ class Trainer(metaclass=ABCMeta):
     def train(self):
         input_df = self._get_data_loader().load(self._get_data_path())
         cols = self._get_cols()
-        df_selected = input_df.select(cols)
-        print(df_selected)
         for c in cols:
             input_df = input_df.withColumn(c, col(c).cast("float"))
+        input_df = input_df.select(cols).dropna().sample(0.1)
         preprocessor = self._get_preprocessor()
         estimator = self._create_estimator()
 

@@ -22,6 +22,10 @@ class Logger(metaclass=ABCMeta):
         self.__current_time = 0
         Timer.get_instance()
 
+    @abstractmethod
+    def get_name(self):
+        pass
+
     @classmethod
     @abstractmethod
     def get_instance(cls, config: LoggerConfig):
