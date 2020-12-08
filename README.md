@@ -15,7 +15,7 @@ Về tổng quan, luồng dữ liệu được di chuyển theo thứ tự:
     
 
 Dưới đây là component diagram của hệ thống:  
-![component-diagram](Diagrams/LogStreamingComponents.png =200x200)
+![component-diagram](Diagrams/LogStreamingComponents.png)
 
 Ngoài ra, ta còn có thêm ModelTrainer để đưa ra các mô hình học nhằm phục vụ việc dữ đoán dữ liệu real-time ở SpeechLayer.
 
@@ -69,7 +69,7 @@ Truy cập localhost:8888 để vào jupyter lab, localhost:8080 để xem spark
 Trong file browser của jupyter lab, mở folder ở đường dẫn _/opt/workspace/_  
 Copy thư mục **jars**, **LogProducer** và **scripts** ở local *(GGTraceStreaming/)* vào thư mục workspace. *(Do không upload trực tiếp được thư mục nên có thể nén thành file zip rồi dùng unzip để giải nên, chú ý là trong Launcher có terminal)*  
 Hình ảnh sau khi upload:   
-![screen1](Diagrams/screen1.png =200x200)
+![screen1](Diagrams/screen1.png)
 
 #### Batch Processing  
 Vào thư mục scripts  
