@@ -4,8 +4,8 @@ import com.hust.logstream.streaming.TaskEventStreaming
 
 object SpeechManager {
 
-  private val model_path = "hdfs://localhost:9000/data/models/streaming.task-event"
-  private val kafka_broker = "localhost:9092"
+  private val model_path = "hdfs://hadoop-namenode:8020/data/models/task-event"
+  private val kafka_broker = "kafka:9093"
   private val topic = "TASK-EVENT"
   private val sparkSession = SparkEntry.sparkSession
 
@@ -13,13 +13,12 @@ object SpeechManager {
 
   sparkSession.sparkContext.setLogLevel("ERROR")
 
-  val manager = TaskEventStreaming
+  val manager = TaskEventStreaming()
 
   def monitor: Unit = {
 
     manager.start
-
-    //  manager.showStatistics
+    manager.showStatistics
 
     while(true) {
       sparkSession.sql("select cpuRequest, memoryRequest, diskSpaceRequest from task_event").show()

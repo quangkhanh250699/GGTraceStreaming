@@ -1,1 +1,0 @@
-{"class":"org.apache.spark.ml.feature.ImputerModel","timestamp":1606926732164,"sparkVersion":"3.0.0-preview2","uid":"Imputer_7e206d190ed5","paramMap":{"outputCols":["_c10","_c11","_c12"],"inputCols":["_c10","_c11","_c12"]},"defaultParamMap":{"relativeError":0.001,"strategy":"mean","missingValue":"NaN","outputCol":"Imputer_7e206d190ed5__output"}}

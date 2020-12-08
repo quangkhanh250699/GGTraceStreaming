@@ -1,0 +1,1 @@
+scala /opt/workspace/jars/BatchLayer-assembly-0.1.jar

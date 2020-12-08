@@ -7,9 +7,9 @@ import com.hust.logstream.model.prediction.TaskEventModel
 import com.hust.logstream.streaming.stream.KafkaStream
 import com.hust.logstream.streaming.task.TaskEvent
 
-object TaskEventStreaming extends StreamManager {
+case class TaskEventStreaming() extends StreamManager {
 
-  private val kafkaBroker = "localhost:9092"
+  private val kafkaBroker = "kafka:9093"
   private val topic = "TASK-EVENT"
   private val sparkSession = SparkSession.builder.getOrCreate()
 

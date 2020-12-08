@@ -2,7 +2,7 @@ package com.hust.logstream.streaming
 
 import com.hust.logstream.streaming.stream.Stream
 
-abstract class StreamManager {
+abstract class StreamManager extends Serializable {
 
   protected val stream: Stream
 

@@ -9,7 +9,7 @@ object TaskEventModel extends TrainedModel {
 
   private val sparkSession = SparkEntry.sparkSession
 
-  private val model_path = "/media/quangkhanh/E/SeventhSemesterProjects/GGTraceStreaming/ModelManager/data/models/task-event/"
+  private val model_path = "hdfs://hadoop-namenode:8020/data/model/task-event/"
 
   lazy private val model = PipelineModel.read.load(model_path)
 

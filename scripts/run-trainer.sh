@@ -1,0 +1,1 @@
+spark-submit --master spark://spark-master:7077 --packages org.apache.spark:spark-sql_2.12:3.0.1,org.apache.spark:spark-mllib_2.12:3.0.1 /opt/workspace/jars/modeltrainer_2.12-0.1.jar

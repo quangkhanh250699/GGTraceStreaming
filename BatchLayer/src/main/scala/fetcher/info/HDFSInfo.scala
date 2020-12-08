@@ -1,5 +1,3 @@
 package fetcher.info
 
-class HDFSInfo(val DATA_PATH: String, val FILE_NAME: String) extends FetcherInfo {
-  val DEFAULT_FS = "hdfs://localhost:9000"
-}
+class HDFSInfo(val DATA_PATH: String, val FILE_NAME: String, val DEFAULT_FS: String) extends FetcherInfo
