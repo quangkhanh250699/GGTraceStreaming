@@ -129,6 +129,28 @@ $bash run-speech-layer.sh
 Kết quả sẽ hiện thị như sau:  
 ![screen4](Diagrams/screen4.png)
 
+#### Chạy phân tích dữ liệu cơ bản trên notebook  
+
+*Để trực quan hóa dữ liệu, ta cần cài đặt thư viện matplotlib của python*  
+Mở một terminal của jupyterlab và cài đặt matplotlib  
+
+```python
+$pip install matplotlib
+```  
+
+Ở trong màn hình chính của jupyter lab tại localhost:8888, tạo mới một notebook python3.  
+
+![screen5](Diagrams/screen5.png)
+Để kết nối với kafka, ta cần khai báo các dependencies tương ứng như trong hình trên.  
+
+Juputer lab là một container chạy trong môi trường docker, nên để truy cập đến spark-master, nó cần khai báo địa chỉ của spark trong môi trường docker, là spark-master:7077.  
+
+*Sau khi kết nối được với spark thông qua spark context, mở trang localhost:8080 sẽ thấy một job đang chạy*  
+
+Sau đó, ta có thể dùng spark để thực hiện các toán tử trên dữ liệu (Dataset or DataFrame).  
+
+*Tham khảo thêm file notebook, upload Explore Data trong thư mục notebooks lên jupyterlab file Browser và chạy notebook*
+
 
 Tổng kết:  
 * Hệ thống này là để mô phỏng quá trình xử lý dữ liếu streaming trong mô trường phân tán, với 1 cụm kafka, 1 cụm spark, 1 cụm hadoop.  
