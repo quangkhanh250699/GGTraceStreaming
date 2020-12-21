@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpeechLayer.iml" filepath="$PROJECT_DIR$/.idea/modules/SpeechLayer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpeechLayer-build.iml" filepath="$PROJECT_DIR$/.idea/modules/SpeechLayer-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpeedLayer.iml" filepath="$PROJECT_DIR$/.idea/modules/SpeedLayer.iml" />
     </modules>
   </component>
 </project>

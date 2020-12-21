@@ -1,9 +1,10 @@
 package com.hust.logstream.streaming
 
-import org.apache.spark.sql.{DataFrame, Encoders, SparkSession}
-import org.apache.spark.sql.functions.col
-
+import org.apache.spark.sql.{DataFrame, Encoder, Encoders, Row, SparkSession}
+import org.apache.spark.sql.functions.{col, exp, expr, monotonically_increasing_id}
+import org.apache.spark.sql.types.{IntegerType, StringType, StructField, StructType}
 import com.hust.logstream.model.prediction.TaskEventModel
+import com.hust.logstream.streaming.machine.MachineManager
 import com.hust.logstream.streaming.stream.KafkaStream
 import com.hust.logstream.streaming.task.TaskEvent
 
@@ -17,7 +18,32 @@ case class TaskEventStreaming() extends StreamManager {
 
   private val initDF: DataFrame = stream.streamReader.load()
 
+  case class CountNumber(group: Int, number: Long)
+
   override def start: Unit = {
+  }
+
+  private def machineGroup = {
+    import sparkSession.implicits._
+    val machineManager = new MachineManager()
+    val machinePath = "/opt/workspace/data/machine.csv"
+    val machineDF = machineManager.loadMachine(machinePath)
+    machineDF.show(3)
+    val splitDF = machineDF.randomSplit(Array(0.4,0.3,0.3))
+    val (df0,df1,df2) = (splitDF(0).withColumn("id",monotonically_increasing_id()),
+      splitDF(1).withColumn("id",monotonically_increasing_id()),
+      splitDF(2).withColumn("id",monotonically_increasing_id()))
+    //    println(df1.count(), df2.count(), df3.count(), machineDF.count())
+
+    val countDF = sparkSession.createDataFrame(Seq(
+      (0, df0.count()),
+      (1, df1.count()),
+      (2, df2.count())
+    )).select($"_1".cast("int").alias("group"), $"_2".cast("int").alias("number"))
+    (df0, df1, df2, countDF)
+  }
+
+  private def extractDF: DataFrame = {
     import sparkSession.implicits._
     val extractedDF = initDF.select("value")
       .as[String].map((s: String) => s.split(","))
@@ -38,25 +64,25 @@ case class TaskEventStreaming() extends StreamManager {
         $"value".getItem(13).as("differentMachineRestriction"),
       )
 
-    extractedDF.writeStream
-      .format("memory")
-      .queryName("task_event")
-      .outputMode("append")
-      .option("numRows", "5")
-      .start()
+    extractedDF
   }
 
   override def getStatistics: Unit = super.getStatistics
 
   override def showStatistics: Unit = {
-    while (true) {
-      val df = sparkSession.sql("select cpuRequest as _c10," +
-        " memoryRequest as _c11, diskSpaceRequest as _c12 from task_event " +
-        "ORDER BY id DESC LIMIT 5")
-      val predicted_df = TaskEventModel.predict(df)
-      predicted_df.show()
-      Thread.sleep(5000)
-    }
+    import sparkSession.implicits._
+    val extractedDF = extractDF
+    val (df0, df1, df2, countDF) = machineGroup
+    val df = extractedDF.select($"id".cast("int"),
+                                $"cpuRequest".alias("_c10"),
+                                $"memoryRequest".alias("_c11"))
+    val prediction = TaskEventModel.predict(df)
+    val predictionWithGroup = prediction.join(countDF, prediction.col("prediction") === countDF.col("group"), "inner")
+      .withColumn("machineIndex", expr("id % number"))
+    predictionWithGroup.writeStream
+      .format("console")
+      .outputMode("append")
+      .start.awaitTermination()
   }
 
   private def toTaskEvent(str: String): TaskEvent = {

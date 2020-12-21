@@ -10,16 +10,16 @@ import org.apache.spark.sql.functions.col
 class TaskEventTrainer(var modelPath: String) extends Trainer {
 
   override def getDataPath: String =
-    "hdfs://hadoop-namenode:8020/data/task-event/"
+    "hdfs://localhost:8020/data/task-event/"
 
   override def getModelPath: String =
     modelPath
 
   override def train: Unit = {
-    val inputDF = SparkLoader.csv(getDataPath).select("_c10", "_c11", "_c12")
+    val inputDF = SparkLoader.csv(getDataPath).select("_c10", "_c11")
     val inputDFCasted = inputDF.select(
       inputDF.columns.map((c: String) => col(c).cast("float")): _*
-    ).limit(10000)
+    ).limit(20000)
     val transformer = createTransformer(inputDFCasted)
     val predictor = createPredictedModel
 

@@ -13,7 +13,7 @@ object Main extends App {
         val memory = args(2)
         (master, modelPath, memory)
       }
-      case _ => ("spark://spark-master:7077", "hdfs://hadoop-namenode:8020/data/model/task-event", "1024m")
+      case _ => ("local", "hdfs://localhost:8020/data/model/task-event", "1024m")
     }
 
     val appName = "Trainer"
