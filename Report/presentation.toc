@@ -1,0 +1,6 @@
+\beamer@sectionintoc {1}{Gi\IeC {\'\ohorn }i thi\IeC {\d \ecircumflex }u b\IeC {\`a}i to\IeC {\'a}n}{3}{0}{1}
+\beamer@sectionintoc {2}{\IeC {\DJ }\IeC {\d \abreve }c \IeC {\dj }i\IeC {\h \ecircumflex }m d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u}{4}{0}{2}
+\beamer@sectionintoc {3}{M\IeC {\^o} h\IeC {\`\i }nh h\IeC {\d \ecircumflex } th\IeC {\'\ocircumflex }ng}{8}{0}{3}
+\beamer@sectionintoc {4}{Batch Layer - X\IeC {\^a}y d\IeC {\d \uhorn }ng m\IeC {\^o} h\IeC {\`\i }nh h\IeC {\d o}c m\IeC {\'a}y}{10}{0}{4}
+\beamer@sectionintoc {5}{Speech Layer - Ph\IeC {\^a}n t\IeC {\'\i }ch d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u th\IeC {\`\ohorn }i gian th\IeC {\d \uhorn }c}{12}{0}{5}
+\beamer@sectionintoc {6}{Ki\IeC {\h \ecircumflex }m th\IeC {\h \uhorn } hi\IeC {\d \ecircumflex }u n\IeC {\u a}ng h\IeC {\d \ecircumflex } th\IeC {\'\ocircumflex }ng}{13}{0}{6}

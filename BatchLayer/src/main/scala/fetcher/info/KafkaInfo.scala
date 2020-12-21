@@ -1,7 +1,7 @@
 package fetcher.info
 
 class KafkaInfo(val TOPIC: String) extends FetcherInfo {
-  val KAFKA_BROKER = "kafka:9093"
+  val KAFKA_BROKER = "localhost:9092"
   val AUTO_OFFSET_RESET = "latest"
   val OFFSET_RESET_EARLIER = "earliest"
   val GROUP_ID_CONFIG = "TASK-GROUP"

@@ -11,7 +11,7 @@ from config._config import Config
 
 class ConnectorConfig(Config):
 
-    KAFKA_BROKERS = "kafka:9093"
+    KAFKA_BROKERS = "localhost:9092"
     MESSAGE_COUNT = 1000
     CLIENT_ID = "client1"
     GROUP_ID_CONFIG = "consumerGroup10"

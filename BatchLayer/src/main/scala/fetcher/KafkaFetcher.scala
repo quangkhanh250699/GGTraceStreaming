@@ -23,7 +23,8 @@ class KafkaFetcher(sourceInfo: KafkaInfo, sinkInfo: HDFSInfo)
 
       while (true) {
         val records = consumer.poll(Duration.ofMillis(10000))
-        println("Number of " + sourceInfo.TOPIC + " records fetched: " + records.count())
+        println("Number of " + sourceInfo.TOPIC + " records fetched: "
+          + records.count() + " from partition " + records.partitions())
         records.forEach((r: ConsumerRecord[String, String]) => {
           val data = new Data(r.value())
           val extractedData = this.extractor.extract(data)
