@@ -195,6 +195,30 @@
 	
 	\begin{frame}
 	{Kafka}
+	\begin{block}
+	{Kịch bản}
+	Tạo topic TASK-EVENT với partitions = 2, TASK-USAGE với partitions = 1. Cả hai đều có replication-factor=1. \\
+	Kiểm tra xem TASK-USAGE được gán với server kafka nào, sau đó tắt nó đi. 
+	\end{block}
+	
+	\begin{block}
+	{Kết quả}
+	Những consumer hay producer của TASK-EVENT và TASK-USAGE đều không hoạt động \\ 
+	TASK-EVENT không còn hoạt động là vì replication-factor=1 nên nếu 1 partition ở một máy bị ngắt kết nối thì topic đó sẽ không còn tìm thấy leader cho partition tương ứng. 
+	\end{block}
+	\end{frame}
+	
+	\begin{frame}
+	\begin{block}
+	Tạo topic TASK-EVENT với partitions = 2, TASK-USAGE với partitions = 1, replication-factor=2. \\
+	Kiểm tra xem TASK-USAGE được gán với server kafka nào, sau đó tắt nó đi.
+	\end{block}
+	
+	\begin{block}
+	{Kết quả}
+	Các consumer hay producer của TASK-USAGE ngừng hoạt động do bị lỗi còn TASK-EVENT vẫn có thể hoạt động bình thường. 
+	\end{block}
+	
 	\end{frame}
 	
 \end{document} 
